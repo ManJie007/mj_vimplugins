@@ -13,3 +13,6 @@
 [submodule "start/lightline"]
 	path = start/lightline
 	url = git@github.com:itchyny/lightline.vim.git
+[submodule "start/vim-visual-multi"]
+	path = start/vim-visual-multi
+	url = git@github.com:mg979/vim-visual-multi.git

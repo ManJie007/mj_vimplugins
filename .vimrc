@@ -74,3 +74,8 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 "Ack
 nnoremap <leader>aa :Ack<Space>
 nnoremap <leader>aw :Ack <C-R><C-W><CR>
+
+"Ctrlp or leaderf
+nnoremap <leader>ff :CtrlP<CR>
+nnoremap <leader>fb :CtrlPBuffer<CR>
+nnoremap <leader>ft :CtrlPTag<CR>

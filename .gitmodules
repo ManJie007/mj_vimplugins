@@ -7,3 +7,6 @@
 [submodule "start/ack"]
 	path = start/ack
 	url = git@github.com:mileszs/ack.vim.git
+[submodule "start/ctrlp"]
+	path = start/ctrlp
+	url = git@github.com:ctrlpvim/ctrlp.vim.git

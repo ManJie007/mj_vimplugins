@@ -16,3 +16,6 @@
 [submodule "start/vim-visual-multi"]
 	path = start/vim-visual-multi
 	url = git@github.com:mg979/vim-visual-multi.git
+[submodule "start/vim-easymotion"]
+	path = start/vim-easymotion
+	url = git@github.com:easymotion/vim-easymotion.git

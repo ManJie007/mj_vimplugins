@@ -88,3 +88,11 @@ let g:lightline = {
       \   'right': [ [ 'lineinfo' ], [ 'percent' ] ],
       \ },
       \ }
+
+"easymotion
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+" s{char}{char} to move to {char}{char}
+nnoremap s <Plug>(easymotion-overwin-f2)
+" JK motions: Line motions
+noremap <Leader>j <Plug>(easymotion-j)
+noremap <Leader>k <Plug>(easymotion-k)

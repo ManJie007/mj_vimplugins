@@ -122,6 +122,14 @@ nnoremap <leader>t :TagbarToggle<CR>
 "bind-key -T copy-mode-vi 'C-l' select-pane -R
 "bind-key -T copy-mode-vi 'C-\' select-pane -l
 
+" vim-gutentags
+let g:gutentags_modules='ctags'
+"set tags+=tags_path
+let g:gutentags_ctags_extra_args += ['fields=+Snl']
+let g:gutentags_ctags_extra_args += ['extra=+qr']
+let g:gutentags_ctags_extra_args += ['--c++-kinds=+p']
+let g:gutentags_ctags_extra_args += ['--c-kinds=+p']
+
 " TODO Omnicppcomplete
 " TODO neocomplcache youcompleteme vim-lsp
 " TODO tags for std c++ https://www.vim.org/scripts/script.php?script_id=2358

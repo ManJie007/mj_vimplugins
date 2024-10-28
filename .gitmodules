@@ -31,3 +31,6 @@
 [submodule "start/AutoComplPop"]
 	path = start/AutoComplPop
 	url = git@github.com:vim-scripts/AutoComplPop.git
+[submodule "start/vim-gutentags"]
+	path = start/vim-gutentags
+	url = git@github.com:ludovicchabant/vim-gutentags.git

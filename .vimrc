@@ -96,3 +96,6 @@ nnoremap s <Plug>(easymotion-overwin-f2)
 " JK motions: Line motions
 noremap <Leader>j <Plug>(easymotion-j)
 noremap <Leader>k <Plug>(easymotion-k)
+
+" tagbar
+nnoremap <leader>t :TagbarToggle<CR>

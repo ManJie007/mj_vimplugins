@@ -121,3 +121,7 @@ nnoremap <leader>t :TagbarToggle<CR>
 "bind-key -T copy-mode-vi 'C-k' select-pane -U
 "bind-key -T copy-mode-vi 'C-l' select-pane -R
 "bind-key -T copy-mode-vi 'C-\' select-pane -l
+
+" TODO Omnicppcomplete
+" TODO neocomplcache youcompleteme vim-lsp
+" TODO tags for std c++ https://www.vim.org/scripts/script.php?script_id=2358

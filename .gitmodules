@@ -28,3 +28,6 @@
 [submodule "start/vim-tmux-navigator"]
 	path = start/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "start/AutoComplPop"]
+	path = start/AutoComplPop
+	url = git@github.com:vim-scripts/AutoComplPop.git

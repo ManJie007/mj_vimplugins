@@ -70,3 +70,7 @@ colorscheme gruvbox
 
 "NerdTree
 nnoremap <leader>n :NERDTreeToggle<CR>
+
+"Ack
+nnoremap <leader>aa :Ack<Space>
+nnoremap <leader>aw :Ack <C-R><C-W><CR>

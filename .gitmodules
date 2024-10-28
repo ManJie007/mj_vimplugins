@@ -4,3 +4,6 @@
 [submodule "start/nerdtree"]
 	path = start/nerdtree
 	url = git@github.com:preservim/nerdtree.git
+[submodule "start/ack"]
+	path = start/ack
+	url = git@github.com:mileszs/ack.vim.git

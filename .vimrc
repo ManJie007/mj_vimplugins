@@ -67,3 +67,6 @@ nnoremap <silent> <C-l> <C-W>l
 "colorscheme
 set background=dark
 colorscheme gruvbox
+
+"NerdTree
+nnoremap <leader>n :NERDTreeToggle<CR>

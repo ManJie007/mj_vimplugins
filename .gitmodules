@@ -1,3 +1,6 @@
 [submodule "start/gruvbox"]
 	path = start/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
+[submodule "start/nerdtree"]
+	path = start/nerdtree
+	url = git@github.com:preservim/nerdtree.git

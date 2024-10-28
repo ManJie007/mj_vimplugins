@@ -79,3 +79,12 @@ nnoremap <leader>aw :Ack <C-R><C-W><CR>
 nnoremap <leader>ff :CtrlP<CR>
 nnoremap <leader>fb :CtrlPBuffer<CR>
 nnoremap <leader>ft :CtrlPTag<CR>
+
+"lightline.vim
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'apprentice',
+      \ 'active': {
+      \   'right': [ [ 'lineinfo' ], [ 'percent' ] ],
+      \ },
+      \ }

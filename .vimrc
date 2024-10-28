@@ -125,7 +125,7 @@ nnoremap <leader>t :TagbarToggle<CR>
 " vim-gutentags
 let g:gutentags_modules='ctags'
 "set tags+=tags_path
-let g:gutentags_ctags_extra_args += ['fields=+Snl']
+let g:gutentags_ctags_extra_args = ['fields=+Snl']
 let g:gutentags_ctags_extra_args += ['extra=+qr']
 let g:gutentags_ctags_extra_args += ['--c++-kinds=+p']
 let g:gutentags_ctags_extra_args += ['--c-kinds=+p']

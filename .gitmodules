@@ -19,3 +19,6 @@
 [submodule "start/vim-easymotion"]
 	path = start/vim-easymotion
 	url = git@github.com:easymotion/vim-easymotion.git
+[submodule "start/vim-surround"]
+	path = start/vim-surround
+	url = git@github.com:tpope/vim-surround.git

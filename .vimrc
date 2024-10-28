@@ -62,3 +62,8 @@ nnoremap <silent> <C-j> <C-W>j
 nnoremap <silent> <C-k> <C-W>k
 nnoremap <silent> <C-h> <C-W>h
 nnoremap <silent> <C-l> <C-W>l
+
+" plugins
+"colorscheme
+set background=dark
+colorscheme gruvbox

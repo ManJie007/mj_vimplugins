@@ -133,3 +133,4 @@ let g:gutentags_ctags_extra_args += ['--c-kinds=+p']
 " TODO Omnicppcomplete
 " TODO neocomplcache youcompleteme vim-lsp
 " TODO tags for std c++ https://www.vim.org/scripts/script.php?script_id=2358
+" TODO vim-slim

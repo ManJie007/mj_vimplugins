@@ -63,6 +63,13 @@ nnoremap <silent> <C-k> <C-W>k
 nnoremap <silent> <C-h> <C-W>h
 nnoremap <silent> <C-l> <C-W>l
 
+nnoremap <silent> <leader>ov :<C-u>edit $MYVIMRC<CR>
+nnoremap <silent> <leader>sv :<C-u>source $MYVIMRC<CR>
+nnoremap <silent> <leader>sf :<C-u>source %<CR>
+
+" plugin/grep-operator.vim
+"nnoremap <leader>g :silent execute "grep! -R " . shellescape(expand("<cword>")) . " ."<CR>:copen<CR>
+
 " plugins
 "colorscheme
 set background=dark

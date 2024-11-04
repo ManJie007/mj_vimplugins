@@ -46,6 +46,24 @@ nnoremap <silent> ]t :tnext<CR>
 nnoremap <silent> [q :cprevious<CR>
 nnoremap <silent> ]q :cnext<CR>
 
+"Toggling Quickfix window or you can toggle other things
+"This strategy of manually saving global state would be frowned upon in most serious programs, 
+"but for tiny little Vimscript functions it’s a quick and dirty way of getting something mostly working and moving on with your life.
+nnoremap <silent> <leader>q :call QuickfixToggle()<CR>
+
+let g:quickfix_is_open = 0
+function! QuickfixToggle()
+    if g:quickfix_is_open
+        cclose
+        let g:quickfix_is_open = 0
+        execute g:quickfix_return_to_window . "wincmd w"
+    else
+        let g:quickfix_return_to_window = winnr()
+        copen
+        let g:quickfix_is_open = 1
+    endif
+endfunction
+
 "可视模式下的*、#
 xnoremap * :<C-u>call <SID>VSetSearch('/')<CR>/<C-R>=@/<CR><CR>
 xnoremap # :<C-u>call <SID>VSetSearch('?')<CR>?<C-R>=@/<CR><CR>
